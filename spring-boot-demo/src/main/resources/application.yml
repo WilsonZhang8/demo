@@ -1,0 +1,11 @@
+push: 
+    spConfig: 
+        message: sp
+        maxCount: 123
+        isEnv: true
+    alConfig:
+        message: al
+        maxCount: 890
+        isEnv: false
+
+        
