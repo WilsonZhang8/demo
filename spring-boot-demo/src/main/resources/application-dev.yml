@@ -1,0 +1,13 @@
+spring:
+    profile: dev
+push: 
+    spConfig: 
+        message: dev-sp
+        maxCount: 123
+        isEnv: true
+    alConfig:
+        message: dev-al
+        maxCount: 890
+        isEnv: false
+
+        

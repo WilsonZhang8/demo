@@ -1,0 +1,11 @@
+spring:  
+    profile: prod
+push: 
+    spConfig: 
+        message: prod-sp
+        maxCount: 123
+        isEnv: true
+    alConfig:
+        message: prod-al
+        maxCount: 890
+        isEnv: false 

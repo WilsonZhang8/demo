@@ -1,11 +1,11 @@
-push: 
-    spConfig: 
-        message: sp
-        maxCount: 123
-        isEnv: true
-    alConfig:
-        message: al
-        maxCount: 890
-        isEnv: false
-
-        
+spring: 
+    profiles.active: ${spring.profiles.active}
+---
+spring:  
+    profiles.include: test
+---
+spring:  
+    profiles.include: prod
+---
+spring:
+    profiles.include: dev
